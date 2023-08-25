@@ -12,7 +12,7 @@ from matplotlib import pyplot as plt
 from sklearn.metrics import classification_report
 
 
-data = pd.read_csv('C:/Users/Pablo/PycharmProjects/NeuralNetworks/CoverData/cover_data.csv')
+data = pd.read_csv('cover_data.csv') #paste in url where you downloaded dataset from below link
 #https://www.kaggle.com/datasets/uciml/forest-cover-type-dataset
 
 features = data.iloc[:,0:54]
